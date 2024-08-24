@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 260px));
+  justify-content: space-evenly;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.cardTitle {
+  padding: 4px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--primary-color);
+}
+
+.cardImage {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,17 @@
+.reviewsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewItem {
+  margin-bottom: 20px;
+}
+
+.reviewAuthor {
+  font-weight: 700;
+}
+
+.reviewContent {
+  font-style: italic;
+}

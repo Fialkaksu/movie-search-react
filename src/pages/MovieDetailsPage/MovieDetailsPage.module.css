@@ -1,0 +1,57 @@
+.container {
+  margin-top: 20px;
+}
+
+.movieCard {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .movieCard {
+    grid-template-columns: minmax(300px, 1fr) 2fr;
+    justify-items: baseline;
+  }
+}
+
+.poster {
+  box-shadow: 0 0 10px var(--secondary-color);
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .title {
+    text-align: left;
+  }
+}
+
+.overview,
+.genres {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.genresList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.genre {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

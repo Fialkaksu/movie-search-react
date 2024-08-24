@@ -1,0 +1,27 @@
+.link {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-color: var(--accent-color);
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
